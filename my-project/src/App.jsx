@@ -7,18 +7,20 @@ import Card from './component/Card.jsx'
 import Likebutton from './component/Likebutton.jsx'
 import Loodo from './component/Loodo.jsx'
 import TodoList from './component/TodoList.jsx'
+import Lottery from './component/Lottery.jsx'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-600 to-purple-700 flex items-center justify-center">
-  {/* <div class="backdrop-blur-lg bg-white/20 p-10 rounded-2xl shadow-xl"> 
+    /*<div className="min-h-screen bg-gradient-to-br from-blue-600 to-purple-700 flex items-center justify-center">
+    <div class="backdrop-blur-lg bg-white/20 p-10 rounded-2xl shadow-xl"> 
     <h1 class="text-white text-2xl font-bold">Welcome</h1> 
-  </div>*/}
+  </div>
+   </div>
+  */
+
+<div className="min-h-screen bg-gradient-to-tr from-gray-900 via-gray-800 to-black flex justify-center items-center ">
   <TodoList/>
 </div>
-
-/* <div class="min-h-screen bg-gradient-to-tr from-gray-900 via-gray-800 to-black">
-</div> */
 
 /* <div class="min-h-screen bg-gradient-to-br from-gray-100 to-gray-300">
 </div> */
